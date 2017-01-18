@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="#A9F5A9">
+
+        <ImageView
+            android:paddingTop="50dp"
+            android:layout_width="350dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center"
+            android:id="@+id/image_view"
+            android:src="@drawable/logo" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:id="@+id/quickgamebutton"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/quick_game"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:id="@+id/outof3button"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/best_out_of_3"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:id="@+id/settingsbutton"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/settings"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="55dp"
+            android:id="@+id/quitbutton"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/quit"
+            android:layout_marginTop="10dp"/>
+    </LinearLayout>
+</RelativeLayout>
